@@ -9,8 +9,8 @@ const FoodDisplay = () => {
 
 
   return (
-    <div className=''>
-
+    <div className='food-display'>
+        
     </div>
   )
 }
