@@ -1,7 +1,8 @@
-import React from "react";
+
 import "./Header.css";
 
 const Header = () => {
+
   return (
     <div className="header">
       <div className="header-content">
@@ -12,7 +13,7 @@ const Header = () => {
           is to satisfying your craving and elevate your dining experience, one delicious meal at a time
         </p>
 
-        <button>View Menu</button>
+        <button >View Menu</button>
       </div>
     </div>
   );

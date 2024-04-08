@@ -5,6 +5,7 @@
     background: url("./header_img.png") no-repeat;
     background-size: contain;
     position: relative;
+    z-index: -1;
 }
 
 .header-content{
@@ -72,5 +73,4 @@
         /* margin-bottom: 14px; */
     }
  }
-
  
