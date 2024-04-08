@@ -10,9 +10,7 @@ const Footer = () => {
           <img src={assets.logo} alt="" />
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quo
-            natus sequi animi temporibus pariatur explicabo, velit voluptatibus
-            rem. Nostrum aperiam{" "}
+           {" "}
           </p>
           <div className="footer-social-icons">
             <img src={assets.facebook_icon} alt="" />
