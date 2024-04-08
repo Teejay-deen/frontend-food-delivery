@@ -14,7 +14,7 @@
     place-self: center;
     width: max(23vw, 330px);
     color: #808080;
-    background-color: rgb(212, 34, 34);
+    background-color: white;
     display: flex ;
     flex-direction: column;
     padding: 20px 30px;
