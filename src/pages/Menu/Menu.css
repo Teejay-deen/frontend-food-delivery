@@ -54,3 +54,17 @@
     border: 4px solid tomato;
     padding: 3px;
 }
+
+/* making menu section responsive */
+
+@media (max-width:1050px) {
+  .explore-menu{
+    font-size: 15px;
+
+  }
+
+  .explore-menu-text{
+    font-size: 15px;
+    max-width: 100%;
+  }
+}
