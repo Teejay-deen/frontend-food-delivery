@@ -1,7 +1,11 @@
 
 .nav-bar {
     padding: 20px 0;
+  
+    top: 0;
     display: flex;
+ 
+    border-radius: 2px 0 12px 2px;
     justify-content: space-between;
     align-items: center;
 }
