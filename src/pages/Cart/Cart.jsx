@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import "./Cart.css";
 import { StoreContext } from "../../ContextApi/StoreContext";
 import { useNavigate } from 'react-router-dom'
+import AppDownload from "../../components/AppDownload/AppDownload";
 
 const Cart = () => {
   const { cartItem, food_list, removeFromCart, getTotalCartAmount } = useContext(StoreContext);
@@ -74,6 +75,7 @@ const Cart = () => {
           </div>
         </div>
       </div>
+      <AppDownload />
     </div>
   );
 };

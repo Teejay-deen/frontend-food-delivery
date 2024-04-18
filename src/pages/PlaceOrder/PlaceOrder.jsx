@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import "./PlaceOrder.css";
 import { StoreContext } from "../../ContextApi/StoreContext";
+import AppDownload from "../../components/AppDownload/AppDownload"
 
 const PlaceOrder = () => {
 
@@ -52,7 +53,9 @@ const PlaceOrder = () => {
           </div>
             <button >PROCEED TO PAYMENT</button>
         </div>
+        <AppDownload />
       </div>
+      
     </form>
   );
 };
