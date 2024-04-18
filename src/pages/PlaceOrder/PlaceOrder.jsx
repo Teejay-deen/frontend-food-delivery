@@ -52,8 +52,8 @@ const PlaceOrder = () => {
 
           </div>
             <button >PROCEED TO PAYMENT</button>
+             <AppDownload />
         </div>
-        <AppDownload />
       </div>
       
     </form>
